@@ -3,7 +3,6 @@
 ;; Copyright 2012 Xiaofeng Yang
 ;;
 ;; Author: Xiaofeng Yang
-;; Version: $Id: auto-complete-etags.el,v 0.2 2009/04/23 00:38:01 coldnew Exp $
 ;; Keywords:
 ;; X-URL: not distributed yet
 
