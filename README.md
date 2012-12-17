@@ -6,11 +6,11 @@ Popup the docuementation when using TAGS with auto-complete.
 Tested in GNU EMACS 24.2.1.
 
 Requires: 
-    auto-complete-etags.el in `depends/' directory
-	etags-select >= 1.13
+*    auto-complete-etags.el in `depends/' directory
+*	etags-select >= 1.13
 	
-Sample configuration:
-
+##Sample configuration##
+```el
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; auto-complete
 (require 'auto-complete-config)
@@ -60,3 +60,4 @@ Sample configuration:
 
 (require 'auto-complete-etags-docs)
 (aced-update-ac-source-etags)
+```
