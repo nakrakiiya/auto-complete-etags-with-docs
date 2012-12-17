@@ -111,7 +111,7 @@
 (defun aced-update-ac-source-etags ()
   (if (assoc 'document ac-source-etags)
       (setf (cdr (assoc 'document ac-source-etags)) 1)
-    (add-to-list ac-source-etags (document . aced-etags-complete-doc))))
+    (add-to-list ac-source-etags '(document . aced-etags-complete-doc))))
 
 ;; (aced-etags-complete-doc "main")
 
