@@ -113,10 +113,4 @@
       (setf (cdr (assoc 'document ac-source-etags)) 1)
     (add-to-list 'ac-source-etags '(document . aced-etags-complete-doc))))
 
-;; (aced-etags-complete-doc "main")
-
-;; (aced-etags-select-find "main")
-
-;; (etags-select-get-tag-table-buffer (first (etags-select-get-tag-files)))
-
 (provide 'auto-complete-etags-docs)
